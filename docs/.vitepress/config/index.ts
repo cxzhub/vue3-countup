@@ -4,7 +4,7 @@ import {
 } from '@vitepress-demo-preview/plugin'
 
 module.exports = {
-  title: 'Hello Vue3Iframe',
+  title: 'Vue3Countup',
   markdown: {
     config(md) {
       md.use(containerPreview)

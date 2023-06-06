@@ -1,7 +1,7 @@
 {
   "name": "vue3-countup",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "keywords": [
     "vue3 countup",
     "countup",
@@ -10,17 +10,9 @@
     "数字滚动"
   ],
   "files": [
-    "dist"
+    "dist/*"
   ],
   "main": "dist/vue3-countup.umd.js",
-  "module": "./dist/vue3-countup.js",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/vue3-countup.js",
-      "require": "./dist/vue3-countup.umd.cjs"
-    }
-  },
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
