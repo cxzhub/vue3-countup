@@ -1,25 +1,8 @@
-# Vue3Countup
+# 示例
 
-基于[vue3](https://cn.vuejs.org/)，[countUp.js](http://inorganik.github.io/countUp.js/)封装的组件，实现数字滚动效果。
-
-## 示例
-
-```vue
-<template>
-  <Vue3Countup :number="number" />
-</template>
-
-<script setup lang="ts">
-import { Vue3Countup } from 'vue3-countup'
-import { ref } from 'vue'
-
-const number = ref<string | number>(1000)
-
-setInterval(() => {
-  number.value = (Math.random() * 5000).toFixed(2)
-}, 3000)
-</script>
-```
+:::preview title
+demo-preview=./examples/basic.vue
+:::
 
 ## 属性
 
