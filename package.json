@@ -18,6 +18,10 @@
     "type": "git",
     "url": "https://github.com/cxzhub/vue3-countup"
   },
+  "homepage": "https://cxzhub.github.io/vue3-countup/",
+  "bugs": {
+    "url": "https://github.com/cxzhub/vue3-countup/issues"
+  },
   "license": "MIT",
   "scripts": {
     "build": "vue-tsc && vite build",
